@@ -117,8 +117,9 @@ body {
 /* The dropdown container */
 
 .occasions {
-	float: left; 
+	float: left;
 	overflow: hidden;
+	/* position: relative; */
 }
 
 /* Dropdown Button */
@@ -149,6 +150,7 @@ body {
 	background-color: #f9f9f9;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-top: 46px;
 	z-index: 1;
 }
 
@@ -172,7 +174,7 @@ body {
 /* Show the dropdown menu on hover */
 
 .occasions:hover .occasions-content {
-	display: none;
+	display: block;
 }
 
 /* Set a specific color for each brand */
@@ -226,4 +228,3 @@ body {
   width: 20px;
   height: 20px;
 }
-
